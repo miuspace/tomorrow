@@ -1,9 +1,0 @@
-他是利用遮罩的方式做固定的，所以依舊是有使用background-attachment: fixed;
-針對擋住background-attachment: fixed;的瀏覽器，
-應該是會去讀去遮罩@supports (clip-path: inset(0 0 0 0)) 這裡面的東西
-
-他還很貼心的做了濾鏡，有黑色跟白色
-
-這支是建議直接用貼入的方式，寫到style2裡面
-
-因為我外嵌的東西越來越多XD
